@@ -1,0 +1,3 @@
+mongodb+srv://davidriver:Biocool1@cluster0.mqw6ajo.mongodb.net/members_only?retryWrites=true&w=majority
+
+SET DEBUG=members-only & npm run devstart

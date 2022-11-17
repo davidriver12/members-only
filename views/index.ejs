@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <button onclick="redirect('/sign-up')">Sign Up</button>
+    <button onclick="redirect('/log-in')">Log In</button>
+  </body>
+  <script>
+    function redirect(to){
+      location.assign(to);
+    }
+  </script>
+</html>
